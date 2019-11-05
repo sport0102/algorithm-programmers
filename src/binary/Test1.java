@@ -2,7 +2,7 @@ package binary;
 
 import java.util.Arrays;
 
-public class Test1 {
+public class Test1  {
     public static void main(String[] args) {
 //        int[] budgets = {120, 110, 140, 150};
 //        int M = 485;

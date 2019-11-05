@@ -8,7 +8,7 @@ fun main() {
     println(solution(numbers))
 }
 
-fun solution(numbers: IntArray): String {
+private fun solution(numbers: IntArray): String {
     var answer = ""
     numbers.sortedWith(Comparator({ num1: Int, num2: Int -> "$num2$num1".compareTo("$num1$num2") }))
         .forEach { answer += it }
